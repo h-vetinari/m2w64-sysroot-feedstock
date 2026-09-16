@@ -337,3 +337,4 @@ about:
 extra:
   recipe-maintainers:
     - isuruf
+  feedstock-name: m2w64-sysroot
