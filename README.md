@@ -1,17 +1,27 @@
-About m2w64-sysroot_win-64-feedstock
-====================================
+About m2w64-sysroot-feedstock
+=============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/m2w64-sysroot-feedstock/blob/main/LICENSE.txt)
 
+
+About m2w64-sysroot
+-------------------
+
+Home: https://github.com/mingw-w64/mingw-64
+
+Package license: ZPL-2.1 AND LGPL-2.1-or-later and MIT AND BSD-3-Clause-Clear
+
+Summary: A complete runtime environment for GCC & LLVM for 32 and 64 bit windows
 
 About m2w64-sysroot_win-64
 --------------------------
 
 Home: https://mingw-w64.sourceforge.io/
 
-Package license: ZPL-2.1 AND LGPL-2.1-or-later and MIT AND BSD-3-Clause-Clear
+Package license: 
 
 Summary: MinGW-w64 sysroot for Windows
+
 
 About mingw-w64-ucrt-x86_64-crt-git
 -----------------------------------
@@ -22,6 +32,7 @@ Package license: ZPL-2.1
 
 Summary: MinGW-w64 CRT for Windows (mingw-w64)
 
+
 About mingw-w64-ucrt-x86_64-headers-git
 ---------------------------------------
 
@@ -30,6 +41,7 @@ Home: https://www.mingw-w64.org/
 Package license: ZPL-2.1 AND LGPL-2.1-or-later
 
 Summary: MinGW-w64 headers for Windows (mingw-w64)
+
 
 About mingw-w64-ucrt-x86_64-winpthreads-git
 -------------------------------------------
@@ -40,6 +52,7 @@ Package license: MIT AND BSD-3-Clause-Clear
 
 Summary: MinGW-w64 winpthreads library (mingw-w64)
 
+
 About libwinpthread
 -------------------
 
@@ -49,6 +62,7 @@ Package license: MIT AND BSD-3-Clause-Clear
 
 Summary: MinGW-w64 winpthreads library (mingw-w64)
 
+
 About winpthreads-devel
 -----------------------
 
@@ -57,6 +71,7 @@ Home: https://www.mingw-w64.org/
 Package license: MIT AND BSD-3-Clause-Clear
 
 Summary: MinGW-w64 winpthreads library headers
+
 
 Current build status
 ====================
@@ -84,10 +99,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86__64--winpthreads--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-winpthreads--devel-green.svg)](https://anaconda.org/conda-forge/winpthreads-devel) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/winpthreads-devel.svg)](https://anaconda.org/conda-forge/winpthreads-devel) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/winpthreads-devel.svg)](https://anaconda.org/conda-forge/winpthreads-devel) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/winpthreads-devel.svg)](https://anaconda.org/conda-forge/winpthreads-devel) |
 
-Installing m2w64-sysroot_win-64
-===============================
+Installing m2w64-sysroot
+========================
 
-Installing `m2w64-sysroot_win-64` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `m2w64-sysroot` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -217,17 +232,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating m2w64-sysroot_win-64-feedstock
-=======================================
+Updating m2w64-sysroot-feedstock
+================================
 
-If you would like to improve the m2w64-sysroot_win-64 recipe or build a new
+If you would like to improve the m2w64-sysroot recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/m2w64-sysroot_win-64-feedstock are
+Note that all branches in the conda-forge/m2w64-sysroot-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
