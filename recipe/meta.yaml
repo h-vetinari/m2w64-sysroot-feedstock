@@ -13,7 +13,7 @@ source:
     - 0003-use-pthread_compat.h-in-sched.h.patch
 
 build:
-  number: 10
+  number: 12
   merge_build_host: false
 
 requirements:
